@@ -1,6 +1,6 @@
+BASE URL: https://psique-capstonem3.herokuapp.com/
+
 EndPoints
-
-
 
 Cadastro:
 
@@ -33,40 +33,51 @@ response:
 }
 
 
-Postar comentários:
+GET /patients
+GET /staff
 
-Todos podem ler. Comentário associado ao usuário que escreveu.
+Necessário estar logado (Bearer token) para ver os pacientes e a equipe
 
-POST /posts
+
+POST /patients
+
+Somente o usuário pode criar e alterar. O "userId" é o id do usuário que está criando. Necessário autenticação.
 
 ex:
-
-Bearer : token de autenticação
-
-Body:
-
-{    
-	"text" : "testando",
-	"userId": "2"
+   {
+      "name": "Sérgio Othoniel",
+      "userId": "2",
+      "age": "32",
+      "email": "sergio@mail.com",
+      "appointments": [],
+      "id": 1
 }
 
 
-Adicionar linguagens:
+POST /staff
 
-Só usuários autenticados podem ler
-
-POST /languages
+Somente o usuário pode criar e alterar. O "userId" é o id do usuário que está criando. Necessário autenticação.
 
 ex:
+{
+      "name": "Hannibal Lecter",
+      "userId": "3",
+      "age": "59",
+      "email": "hannibal@mail.com",
+      "specializations": [
+        "Psicologia Infantil",
+        "Tratamento pós-traumático",
+        "Canibalismo"
+      ],
+      "description": [
+        "Especialista em psicologia froudiana, infantil, pós-traumático, atendo há mais de 15 anos pacientes em um consultório em Campinas - SP."
+      ],
+      "appointments": [],
+      "documents": "12224993439 CRM",
+      "id": 1
+    }
 
-Bearer : token de autenticação
 
-Body:
-
-{    
-	"languages" : "testando",
-	"userId": "2"
-}
 
 
 
