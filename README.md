@@ -34,6 +34,7 @@ response:
 
 
 GET /patients
+
 GET /staff
 
 Necessário estar logado (Bearer token) para ver os pacientes e a equipe
@@ -78,6 +79,8 @@ ex:
     }
 
 
+POST /appointments
+GET  /appointments
 
 
 
