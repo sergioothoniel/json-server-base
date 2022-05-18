@@ -11,7 +11,7 @@ app.db = router.db;
 const rules = auth.rewriter({
   users: 640,
   patients: 640,
-  staff: 640,
+  staff: 644,
   appointments: 640
 });
 
