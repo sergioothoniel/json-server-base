@@ -12,7 +12,7 @@ const rules = auth.rewriter({
   users: 640,
   patients: 640,
   staff: 644,
-  appointments: 640
+  appointments: 644
 });
 
 app.use(cors());
