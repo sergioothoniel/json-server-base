@@ -8,32 +8,86 @@
       "id": 1
     },
     {
-      "email": "sergio@mail.com",
-      "password": "$2a$10$iT64cNwuh2SCdqt.dwAWee3Zk5zPb9goRZO/Yz9uAo2rJ1Tb51gEC",
-      "id": 2
-    },
-    {
       "email": "hannibal@email.com",
       "password": "$2a$10$mOpJwrd20VLgq47/PaPU7u8pECRzH6iaOWwH66Oaes5/y5ed2qAp2",
       "name": "Hannibal Lecter",
-      "age": "59",
+      "type": "staff",
+      "id": 2
+    },
+    {
+      "email": "iasmim@email.com",
+      "password": "$2a$10$B8uqagTXWPdW5bPRQj.HQe4qmDACH0Xf3ce.rfHf0JZPyCIiMyny.",
+      "name": "Iasmin Dantas",
+      "type": "patients",
       "id": 3
+    },
+    {
+      "email": "sergio@email.com",
+      "password": "$2a$10$8MaZFWT92ZjRieJ8VkFb4eCKtymeaiKme6PWLq5x6HZbyJdORSGUG",
+      "name": "Sérgio Otohniel",
+      "type": "patients",
+      "id": 4
+    },
+    {
+      "email": "isaac@email.com",
+      "password": "$2a$10$eP5CMqZhsRpvWZLaJ7N2BOY7/VIFkHbsk88PVTlk6jeplp18QRMUS",
+      "name": "Isaac Xavier",
+      "type": "staff",
+      "id": 5
+    },
+    {
+      "email": "matheus@email.com",
+      "password": "$2a$10$TiVu34Bv3XoF.Iow0td22.fuIJoSO3DsNj2foX4VymMC2JYIwH5z6",
+      "name": "Matheus da Cunha",
+      "type": "staff",
+      "id": 6
+    },
+    {
+      "email": "arthur@email.com",
+      "password": "$2a$10$AsBiIMK.f43FdAU2dnKf9Ox3gttwmgHSzcpiYWpMH.0Z6cgItmFpq",
+      "name": "Arthur Amaral",
+      "type": "staff",
+      "id": 7
+    },
+    {
+      "email": "mariana@email.com",
+      "password": "$2a$10$Vro1ZQkUhy4PfmaMhavWR.BImkpoeHnpTG6a5niaaT5BcVi5KPeJC",
+      "name": "Mariana Bonan",
+      "type": "patients",
+      "id": 8
     }
   ],
   "patients": [
     {
-      "name": "Sérgio Othoniel",
-      "userId": "2",
+      "email": "sergio@email.com",      
+      "name": "Sérgio Otohniel",  
       "age": "32",
-      "email": "sergio@mail.com",
-      "appointments": [],
+      "cpf": "15684765896" ,   
+      "userId": 4,
       "id": 1
+    },
+    {
+      "email": "mariana@email.com",      
+      "name": "Mariana Bonan",  
+      "age": "23",
+      "cpf": "55632147856" ,   
+      "userId": 8,
+      "id": 2
+    },
+    {
+      "email": "iasmim@email.com",      
+      "name": "Iasmin Dantas",  
+      "age": "21",
+      "cpf": "55632147856" ,   
+      "userId": 3,
+      "id": 3
     }
+    
   ],
   "staff": [
     {
       "name": "Hannibal Lecter",
-      "userId": "3",
+      "userId": "2",
       "age": "59",
       "email": "hannibal@mail.com",
       "specializations": [
@@ -41,13 +95,78 @@
         "Tratamento pós-traumático",
         "Canibalismo"
       ],
-      "description": [
-        "Especialista em psicologia froudiana, infantil, pós-traumático, atendo há mais de 15 anos pacientes em um consultório em Campinas - SP."
-      ],
+      "description": "Especialista em psicologia froudiana, infantil, pós-traumático, atendo há mais de 15 anos pacientes em um consultório em Campinas - SP.",
       "appointments": [],
-      "documents": "12224993439 CRM",
+      "crp": "11589658",
       "id": 1
+    },
+    {
+      "name": "Isaac Xavier",
+      "userId": "5",
+      "age": "25",
+      "email": "isaac@email.com",
+      "specializations": [
+        "Psicologia Infantil",
+        "Tratamento pós-traumático",
+        "Canibalismo"
+      ],
+      "description": "",
+      "appointments": [],
+      "crp": "12345678",
+      "id": 2
+    },
+    {
+      "name": "Matheus da Cunha",
+      "userId": "6",
+      "age": "30",
+      "email": "matheus@email.com",
+      "specializations": [
+        "Psicologia Infantil",
+        "Tratamento pós-traumático",
+        "Canibalismo"
+      ],
+      "description": "",
+      "appointments": [],
+      "crp": "98546278",
+      "id": 3
+    },
+    {
+      "name": "Arthur Amaral",
+      "userId": "7",
+      "age": "28",
+      "email": "arthur@email.com",
+      "specializations": [
+        "Psicologia Infantil",
+        "Tratamento pós-traumático",
+        "Canibalismo"
+      ],
+      "description": "",
+      "appointments": [],
+      "crp": "85698412",
+      "id": 4
     }
   ],
-  "appointments":[]
+  "appointments": [
+    {
+      "userId": "4",
+      "staffId": "1",
+      "id": 1,
+      "date": "25/05/2022",
+      "time": "09:00"
+    },
+    {
+      "userId": "8",
+      "staffId": "2",
+      "id": 2,
+      "date": "22/05/2022",
+      "time": "13:00"
+    },
+    {
+      "userId": "3",
+      "staffId": "4",
+      "id": 3,
+      "date": "30/05/2022",
+      "time": "10:00"
+    }
+  ]
 }
