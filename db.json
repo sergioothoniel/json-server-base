@@ -98,7 +98,8 @@
       "description": "Especialista em psicologia froudiana, infantil, pós-traumático, atendo há mais de 15 anos pacientes em um consultório em Campinas - SP.",
       "appointments": [],
       "crp": "11589658",
-      "id": 1
+      "id": 1,
+      "average": 4
     },
     {
       "name": "Isaac Xavier",
@@ -106,14 +107,14 @@
       "age": "25",
       "email": "isaac@email.com",
       "specializations": [
-        "Psicologia Infantil",
-        "Tratamento pós-traumático",
-        "Canibalismo"
+        "Psicanálise",
+        "Cognitivo comportamental"        
       ],
-      "description": "",
+      "description": "O psicólogo clínico, a partir da demanda do paciente, o ajuda a mapear seus objetivos para então direcionar e conduzir o trabalho terapêutico. Em geral, a grande maioria dos psicólogos fica apreensiva em como adequar o paciente à sua linha de abordagem . Minha preocupação, no entanto, é trabalhar com as técnicas que irão lhe proporcional o melhor resultado, independente da linha teórica que as embasam. Certamente existem algumas incongruências e até incompatibilidades entre uma abordagem e outras, mas isso não significa que não haja também muito material útil a ser compartilhado, que no fim das contas, trará ganhos para a terapia.",
       "appointments": [],
       "crp": "12345678",
-      "id": 2
+      "id": 2,
+      "average": 5
     },
     {
       "name": "Matheus da Cunha",
@@ -121,14 +122,15 @@
       "age": "30",
       "email": "matheus@email.com",
       "specializations": [
-        "Psicologia Infantil",
+        "Junguiana",
         "Tratamento pós-traumático",
-        "Canibalismo"
+        "Evolucionista"
       ],
-      "description": "",
+      "description": "Sempre tive um olhar analítico para o mundo, onde simbolismos estavam por toda parte. Assim conheci a Psicologia Junguiana e de cara reconheci tudo aquilo que sempre fez sentido no meu processo pessoal de autoconhecimento. Então neste momento, tive a certeza do que gostaria de fazer em minha vida: guiar as pessoas em seus processos de amadurecimento e autoconhecimento, auxiliar a verem coisas que sempre estiveram presentes, porém, que passam despercebidas.",
       "appointments": [],
       "crp": "98546278",
-      "id": 3
+      "id": 3,
+      "average": 5
     },
     {
       "name": "Arthur Amaral",
@@ -136,14 +138,15 @@
       "age": "28",
       "email": "arthur@email.com",
       "specializations": [
-        "Psicologia Infantil",
-        "Tratamento pós-traumático",
-        "Canibalismo"
+        "Cognitivo comportamental",
+        "Fenomenologia",
+        "Psicologia infantil"
       ],
-      "description": "",
+      "description": "A psicologia foi uma grande virada na minha vida... Parece frase clichê, mas não há nada mais realizador e feliz do que você fazer o que realmente gosta! Fiquei muitos da minha vida ouvindo o que seria uma carreira de sucesso e, consequentemente, quais as profissões que deveria seguir para isto. Segui muito estas vozes exteriores e realmente foi uma experiência rica! Mas estava faltando o básico: a realização profissional. Não me sentia 100% feliz, apesar de vários momentos de alegria e satisfação. Tive força e coragem para dar esta virada e me dedicar profundamente aos estudos e formação psicológica e, neste processo, me senti extremamente feliz!! Conheci pessoas novas, aprendi coisas que jamais imaginaria! Como se eu estivesse ganho alma, ou sentimentos mais sutis que nunca havia experimentado. Agradeço a Deus e a todos que me acompanham nesta jornada que está longe de acabar... Vamos em frente e confiantes para mergulhar neste universo chamado vida! Hoje sou psicólogo clínico de abordagem junguiana. Atendo adolescentes, adultos, idosos e casais de maneira online e presencial. Reconheço que a psicoterapia hoje é fundamental para todo mundo! Assim como devemos cuidar do corpo, também devemos cuidar dos nossos pensamentos e sentimentos. Ir em busca do autoconhecimento e de ferramentas para enfrentar os desafios da vida deve ser o caminho para uma vida mais plena e feliz.",
       "appointments": [],
       "crp": "85698412",
-      "id": 4
+      "id": 4,
+      "average": 3
     }
   ],
   "appointments": [
@@ -167,6 +170,34 @@
       "id": 3,
       "date": "30/05/2022",
       "time": "10:00"
+    },
+    {
+      "userId": "8",
+      "staffId": "6",
+      "id": 4,
+      "date": "20/05/2022",
+      "time": "09:00"
+    },
+    {
+      "userId": "4",
+      "staffId": "7",
+      "id": 5,
+      "date": "23/05/2022",
+      "time": "11:00"
+    },
+    {
+      "userId": "3",
+      "staffId": "7",
+      "id": 6,
+      "date": "25/05/2022",
+      "time": "15:00"
+    },
+    {
+      "userId": "8",
+      "staffId": "7",
+      "id": 7,
+      "date": "25/05/2022",
+      "time": "14:00"
     }
   ]
 }
